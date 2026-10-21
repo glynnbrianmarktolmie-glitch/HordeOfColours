@@ -1,0 +1,242 @@
+#logo {
+    width:360px;
+    height:225px;
+}
+.centered {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.display-image {
+    width: 800px;
+    height: 500px;
+    margin:10px 10px 10px 10px;
+}
+.hide {
+    display:none;
+
+}
+.show-flex {
+    display:flex;
+}
+#ProductGrid{
+   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-card{
+    margin:5px;
+    border-radius: 10px;
+    background-color:#a1c6d9;
+    cursor: pointer;
+    padding:5px;
+}
+.social-media-icon{
+    width: 32px;
+    height: 32px;
+
+}
+.display-image {
+    width: 800px;
+    height: 500px;
+    margin: 20px 20px 20px 20px; 
+
+}
+
+#detailsDiv{
+    flex-direction: column;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.previewButton {
+    background-image: none;
+    background-color: #13a12b;
+    border-radius: 5px;
+    height: 120px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+#kickstarterLogo {
+    height: 25.5px;
+    width: 240px;
+    margin: 10px 30px;
+}
+#details-buttons-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.textShade {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.5);
+    /*box-shadow: 0 0 30px 5px rgba(56,110,23,0.1);*/
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%),
+                linear-gradient(to top, black 80%, transparent 100%),
+                linear-gradient(to right, black 80%, transparent 100%),
+                linear-gradient(to left, black 80%, transparent 100%);
+    mask-composite: intersect;
+}
+h1 {
+    font-family: 'Lucida Blackletter', sans-serif;
+    color: black;     
+    margin: 10px 20px;
+}
+h2 {
+    font-family: 'Lucida Blackletter', sans-serif;
+    color: white;     
+    margin: 10px 20px;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.productPreviewButton {
+    background-image: none;
+    background-color: #13a12b;
+    border-radius: 5px;
+    height: 120px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+body {
+    background-color: rgb(235, 226, 226);
+}
+
+#imageDescription {
+    display: flex;
+    flex-direction: row;
+}
+
+#productDetails {
+    padding: 15px;
+}
+
+.product-title {
+    font-family: 'Lucida Blackletter', sans-serif;
+    margin-top: 0px;
+    text-align:center;
+    font-size:30px;
+}
+.product-price {
+    text-align:center;
+    font-size:24px;
+}
+footer {
+    padding-top:20px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.socials-container {
+
+}
+
+.socials-link {
+    margin:0 5px;
+}
+
+.description-text{
+    margin: 10px 20px;
+}
