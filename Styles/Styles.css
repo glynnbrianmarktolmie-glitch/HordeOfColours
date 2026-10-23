@@ -240,3 +240,13 @@ footer {
 .description-text{
     margin: 10px 20px;
 }
+
+p1 {
+    font-weight: bold;
+    font-size:large;
+}
+
+#rates {
+    width:400px;
+    height:80px;
+}

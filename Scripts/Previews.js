@@ -24,8 +24,8 @@ let slideIndex = 1;
 
 const products = 
 [
-    {"name":"Monorcs","description":"Two riders and their mount", "price":"///","featuredImage":"Media/Products/CC012.jpg",  "crouselImages":[{"src":"Media/Products/CC012.jpg"},{"src":"Media/Products/CC012.jpg"},{"src":"Media/Products/CC001.jpg"}], "buyNowLink":""},
-    {"name":"Bobble Biker","description":"A chaotic rider and his bike, includes optional bobble head", "price":"///","featuredImage":"Media/Products/CC001.jpg",  "crouselImages":[{"src":"Media/Products/CC012.jpg"},{"src":"Media/Products/CC001.jpg"}], "buyNowLink":""},
+    {"name":"Monorcs","description":"Two intimidating presences to lead your forces. Includes horn options for the mount. <br><br> Models sculpted by Tommy Stenersen Hovind", "price":"???","featuredImage":"Media/Products/Previews/PP000.jpg",  "crouselImages":[{"src":"Media/Products/Previews/PP001.jpg"},{"src":"Media/Products/Previews/PP002.jpg"},{"src":"Media/Products/Previews/PP003.jpg"},{"src":"Media/Products/Previews/PP004.jpg"},{"src":"Media/Products/Previews/PP005.jpg"},{"src":"Media/Products/Previews/PP006.jpg"},{"src":"Media/Products/Previews/PP007.jpg"},{"src":"Media/Products/Previews/PP008.jpg"}], "buyNowLink":""},
+    
    
     
    
@@ -36,7 +36,7 @@ const products =
 
 function GoToBuyNow()
 {
-   window.open('index.html', '_blank');
+   window.open('BuyNow.html');
 }
 
 LoadProducts();
